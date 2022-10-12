@@ -1,0 +1,40 @@
+.contenitore{
+    height: 100vh;
+    background-color: red;
+}
+
+header{
+    height: 100px;  
+}
+
+main{
+    height: calc(100vh - 100px);
+    background-color: orange;
+}
+
+.side{
+    height: calc(100vh - 100px);
+    background-color: aqua;
+}
+
+.main{
+    background-color: blueviolet;
+    height: calc(100vh - 100px);
+}
+
+.logo{
+    width: 60px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo2{
+   width: 130px;
+}
+
+.logo2 img{
+ width: 100%;
+}
+
