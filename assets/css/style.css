@@ -1,6 +1,6 @@
 .contenitore{
     height: 100vh;
-    background-color: red;
+    /* background-color: red; */
 }
 
 header{
@@ -9,7 +9,7 @@ header{
 
 main{
     height: calc(100vh - 100px);
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 .side{
@@ -20,7 +20,7 @@ main{
 }
 
 .main{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: calc(100vh - 100px);
     overflow-y: scroll;
 }
