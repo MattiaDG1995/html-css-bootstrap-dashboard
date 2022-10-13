@@ -82,27 +82,27 @@
                                     <div class="d-flex">
                                         <h2>Boolean</h2>
                                         <div class="d-flex align-items-center">
-                                            <span class="badge rounded-pill text-bg-secondary">Piano Blaze</span>
+                                            <span class="badge rounded-pill">Piano Blaze</span>
                                         </div>
                                         
                                     </div>
 
                                     <div class="d-flex">
                                         <div>
-                                            <span class="badge rounded-pill text-bg-secondary">3 app</span>
+                                            <span class="badge rounded-pill">3 app</span>
                                         </div>
                                         <p>>></p>
                                         <div>
-                                            <span class="badge rounded-pill text-bg-secondary d-block d-lg-none">+</span>
+                                            <span class="badge rounded-pill d-block d-lg-none">+</span>
                                         </div>
                                         <div class="d-none d-lg-block">
-                                            <span class="badge rounded-pill text-bg-secondary">Boolean mobile app</span>
+                                            <span class="badge rounded-pill">Boolean mobile app</span>
                                         </div>
                                         <div class="d-none d-lg-block">
-                                            <span class="badge rounded-pill text-bg-secondary">Boolean web app</span>
+                                            <span class="badge rounded-pill">Boolean web app</span>
                                         </div>
                                         <div class="d-none d-lg-block">
-                                            <span class="badge rounded-pill text-bg-secondary">Boolean blog app</span>
+                                            <span class="badge rounded-pill">Boolean blog app</span>
                                         </div>                                
                                     </div>
                                     
@@ -118,7 +118,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-12 col-lg-8">
-                                    <div class="card">
+                                    <div class="card m-2">
                                         <div class="card-header d-flex justify-content-between">
                                           <h3>Prossime classi</h3>
                                           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
@@ -161,6 +161,12 @@
                                                   <label for="inputZip" class="form-label">Cap</label>
                                                   <input type="text" class="form-control" id="inputZip">
                                                 </div>
+
+                                                <label for="inputfile" class="form-label">Foto</label>
+                                                <div class="input-group">
+                                                  <input type="file" class="form-control" id="inputGroupFile02">
+                                                  <label class="input-group-text" for="inputGroupFile02"></label>
+                                                </div>
                                                 <div class="col-12">
                                                   <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -170,7 +176,8 @@
                                                   </div>
                                                 </div>
                                                 <div class="col-12">
-                                                  <button type="submit" class="btn btn-primary">Sign in</button>
+                                                  <button type="button" class="btn btn-success">Success</button>
+                                                  <button type="button" class="btn btn-warning">Warning</button>
                                                 </div>
                                               </form>
                                             </div>
@@ -180,83 +187,89 @@
                                           <table class="table table-hover">
                                             <thead>
                                               <tr>
-                                                <th scope="col">Nome</th>
-                                                <th class="d-none d-lg-inline-block" scope="col">Data inizio</th>
-                                                <th class="d-none d-lg-inline-block" scope="col">ROI</th>
+                                                <th class="w-50" scope="col">Nome</th>
+                                                <th class="d-none d-md-table-cell" scope="col">Data inizio</th>
+                                                <th class="d-none d-md-table-cell" scope="col">ROI</th>
                                                 <th scope="col">Stato</th>
                                                 <th scope="col">Azioni</th>
                                               </tr>
                                             </thead>
                                             <tbody>
                                               <tr>
-                                                <th scope="row"><i class="fa-solid fa-code"></i><span>Classe 75</span></th>
-                                                <td class="d-none d-lg-inline-block">15feb2021</td>
-                                                <td class="d-none d-lg-inline-block">20%</td>
+                                                <th scope="row"><i class="fa-solid fa-code p-1"></i><span>Classe 75</span></th>
+                                                <td class="d-none d-md-table-cell">15feb2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
                                                 <td><span class="badge text-bg-success">Success</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary">Sec</button><button type="button" class="btn btn-outline-secondary">Sec</button></td>
+                                                <td> 
+                                                  <div class="d-flex">
+                                                  <button type="button" class="btn btn-outline-secondary me-2"><i class="fa-solid fa-pencil"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                  </div>
+                                                </td>
+                                               
+                                                
                                               </tr>
 
                                               <tr>
-                                                <th scope="row"><i class="fa-solid fa-code"></i><span>Classe 76</span></th>
-                                                <td class="d-none d-lg-inline-block">15feb2021</td>
-                                                <td class="d-none d-lg-inline-block">20%</td>
+                                                <th scope="row"><i class="fa-solid fa-code p-1"></i><span>Classe 76</span></th>
+                                                <td class="d-none d-md-table-cell">15feb2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
                                                 <td><span class="badge text-bg-success">Success</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary">Sec</button><button type="button" class="btn btn-outline-secondary">Sec</button></td>
+                                                <td><button type="button" class="btn btn-outline-secondary me-2"><i class="fa-solid fa-pencil"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                                               </tr>
 
                                               <tr>
-                                                <th scope="row"><i class="fa-solid fa-code"></i><span>Classe 77</span></th>
-                                                <td class="d-none d-lg-inline-block">15feb2021</td>
-                                                <td class="d-none d-lg-inline-block">20%</td>
+                                                <th scope="row"><i class="fa-solid fa-code p-1"></i><span>Classe 77</span></th>
+                                                <td class="d-none d-md-table-cell">15feb2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
                                                 <td><span class="badge text-bg-warning">Warning</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary">Sec</button><button type="button" class="btn btn-outline-secondary">Sec</button></td>
+                                                <td><button type="button" class="btn btn-outline-secondary me-2"><i class="fa-solid fa-pencil"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                                               </tr>
 
                                               <tr>
-                                                <th scope="row"><i class="fa-solid fa-code"></i><span>Classe 78</span></th>
-                                                <td class="d-none d-lg-inline-block">15feb2021</td>
-                                                <td class="d-none d-lg-inline-block">20%</td>
+                                                <th scope="row"><i class="fa-solid fa-code p-1"></i><span>Classe 78</span></th>
+                                                <td class="d-none d-md-table-cell">15feb2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
                                                 <td><span class="badge text-bg-success">Success</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary">Sec</button><button type="button" class="btn btn-outline-secondary">Sec</button></td>
+                                                <td><button type="button" class="btn btn-outline-secondary me-2"><i class="fa-solid fa-pencil"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                                               </tr>
 
                                               <tr>
-                                                <th scope="row"><i class="fa-solid fa-code"></i><span>Classe 79</span></th>
-                                                <td class="d-none d-lg-inline-block">15feb2021</td>
-                                                <td class="d-none d-lg-inline-block">20%</td>
+                                                <th scope="row"><i class="fa-solid fa-code p-1"></i><span>Classe 79</span></th>
+                                                <td class="d-none d-md-table-cell">15feb2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
                                                 <td><span class="badge text-bg-danger">Danger</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary">Sec</button><button type="button" class="btn btn-outline-secondary">Sec</button></td>
+                                                <td><button type="button" class="btn btn-outline-secondary me-2"><i class="fa-solid fa-pencil"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                                               </tr>
 
                                               <tr>
-                                                <th scope="row"><i class="fa-solid fa-code"></i><span>Classe 80</span></th>
-                                                <td class="d-none d-lg-inline-block">15feb2021</td>
-                                                <td class="d-none d-lg-inline-block">20%</td>
+                                                <th scope="row"><i class="fa-solid fa-code p-1"></i><span>Classe 80</span></th>
+                                                <td class="d-none d-md-table-cell">15feb2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
                                                 <td><span class="badge text-bg-success">Success</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary">Sec</button><button type="button" class="btn btn-outline-secondary">Sec</button></td>
+                                                <td><button type="button" class="btn btn-outline-secondary me-2"><i class="fa-solid fa-pencil"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                                               </tr>
 
                                               <tr>
-                                                <th scope="row"><i class="fa-solid fa-code"></i><span>Classe 81</span></th>
-                                                <td class="d-none d-lg-inline-block">15feb2021</td>
-                                                <td class="d-none d-lg-inline-block">20%</td>
+                                                <th scope="row"><i class="fa-solid fa-code p-1"></i><span>Classe 81</span></th>
+                                                <td class="d-none d-md-table-cell">15feb2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
                                                 <td><span class="badge text-bg-danger">Danger</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary">Sec</button><button type="button" class="btn btn-outline-secondary">Sec</button></td>
+                                                <td><button type="button" class="btn btn-outline-secondary me-2"><i class="fa-solid fa-pencil"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                                               </tr>
 
                                               <tr>
-                                                <th scope="row"><i class="fa-solid fa-code"></i><span>Classe 82</span></th>
-                                                <td class="d-none d-lg-inline-block">15feb2021</td>
-                                                <td class="d-none d-lg-inline-block">20%</td>
+                                                <th scope="row"><i class="fa-solid fa-code p-1"></i><span>Classe 82</span></th>
+                                                <td class="d-none d-md-table-cell">15feb2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
                                                 <td><span class="badge text-bg-success">Success</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary">Sec</button><button type="button" class="btn btn-outline-secondary">Sec</button></td>
+                                                <td><button type="button" class="btn btn-outline-secondary me-2"><i class="fa-solid fa-pencil"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                                               </tr>                                                                                        
                                             </tbody>
                                           </table>
                                         </ul>
                                       </div>
 
-                                      <div class="card mt-2">
+                                      <div class="card m-2">
                                         <ul class="list-group list-group-flush">
                                           <li class="list-group-item fs-2">F.A.Q</li>
                                           <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -298,7 +311,7 @@
 
 
                                 <div class="col-12 col-lg-4">
-                                    <div class="card"">
+                                    <div class="card m-2">
                                         <ul class="list-group list-group-flush">
                                           <li class="list-group-item fs-2">TODO</li>
                                           <ul class="list-group p-2">
@@ -318,7 +331,7 @@
                                         </ul>
                                       </div>
 
-                                      <div class="card">
+                                      <div class="card m-2">
                                         <div class="box">
                                             <img src="assets/img/chart.jpg" class="card-img-top" alt="...">
                                         <div class="card-body">

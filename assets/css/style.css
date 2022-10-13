@@ -4,7 +4,8 @@
 }
 
 header{
-    height: 70px;  
+    height: 70px; 
+    color: gray;
 }
 
 main{
@@ -25,6 +26,16 @@ main{
     overflow-y: scroll;
 }
 
+.d-flex span{
+    background-color: #285DBE;
+}
+
+th .fa-code{
+    background-color: chocolate;
+    border-radius: 50%;
+}
+
+
 .logo{
     width: 60px;
 }
@@ -41,7 +52,7 @@ main{
  width: 100%;
 }
 
- .btn i{
+ .btn .fa-bell{
     color: gold;
  } 
 
