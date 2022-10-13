@@ -4,16 +4,16 @@
 }
 
 header{
-    height: 100px;  
+    height: 70px;  
 }
 
 main{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 70px);
     /* background-color: orange; */
 }
 
 .side{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 70px);
     background-image: url('../img/sidebar-bg.png');
     background-size: cover;
     background-color: #051E34;
@@ -21,7 +21,7 @@ main{
 
 .main{
     /* background-color: blueviolet; */
-    height: calc(100vh - 100px);
+    height: calc(100vh - 70px);
     overflow-y: scroll;
 }
 
@@ -41,6 +41,10 @@ main{
  width: 100%;
 }
 
+ .btn i{
+    color: gold;
+ } 
+
 main .container-fluid .row>*{
     padding: 0;
 }
@@ -49,5 +53,38 @@ main .container-fluid .row>*{
     background-color: #1A73E8;
     color: white;
 }
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.btn-primary{
+    color: #1A73E8;
+    background-color: white;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    color: #1d3f70;
+    border: 1px solid #1d3f70;
+}
+
+@media screen and (max-width: 992px){
+    .offcanvas.offcanvas-end{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 993px){
+    .offcanvas.offcanvas-end{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
 
 
