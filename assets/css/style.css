@@ -8,6 +8,11 @@ header{
     color: gray;
 }
 
+header i:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
 main{
     height: calc(100vh - 70px);
     /* background-color: orange; */
@@ -20,6 +25,16 @@ main{
     background-color: #051E34;
 }
 
+.side i:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.side h6:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
 .main{
     /* background-color: blueviolet; */
     height: calc(100vh - 70px);
@@ -30,11 +45,20 @@ main{
     background-color: #285DBE;
 }
 
+.d-flex span:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.badge:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
 th .fa-code{
     background-color: chocolate;
     border-radius: 50%;
 }
-
 
 .logo{
     width: 60px;
@@ -78,6 +102,7 @@ main .container-fluid .row>*{
 .btn-primary:hover{
     color: #1d3f70;
     border: 1px solid #1d3f70;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 992px){
